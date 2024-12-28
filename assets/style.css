@@ -1,0 +1,33 @@
+.related-posts {
+    list-style: none;
+    padding: 0;
+}
+
+.related-post-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.related-post-thumbnail {
+    margin-right: 15px;
+}
+
+.related-post-thumbnail img {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+}
+
+.related-post-title {
+    font-size: 16px;
+}
+
+.related-post-title a {
+    text-decoration: none;
+    color: #0073aa;
+}
+
+.related-post-title a:hover {
+    color: #005177;
+}
